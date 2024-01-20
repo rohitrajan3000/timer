@@ -34,7 +34,7 @@ export default function CircularProgressBar() {
   return (
     <div style={{ display: 'flex', justifyContent: 'center', alignContent: 'center' }}>
       
-      <div style={{ width: '300px', height: '300px', margin: '100px' }}>
+      <div style={{ width: '250px', height: '250px', margin: '100px' }}>
       <h1 style={{textAlign:'center',fontFamily:'sans-serif',color:'d6d6d6',}}>Routine Starts in</h1>
       <h4 style={{textAlign:'center',fontFamily:'sans-serif',color:'gray'}}>Subheading Here</h4>
         
@@ -63,7 +63,7 @@ export default function CircularProgressBar() {
             padding:'10px',
             width:'150px',
             borderRadius:'25px',
-            fontSize:'20px',
+            fontSize:'15px',
             marginRight:'50px',
             boxShadow: '4px 10px 8px rgba(0, 0, 0, 0.1)',
             
@@ -74,7 +74,7 @@ export default function CircularProgressBar() {
             width:'150px',
             marginLeft:'50px',
             borderRadius:'25px',
-            fontSize:'20px',
+            fontSize:'15px',
             boxShadow: '4px 10px 8px rgba(0, 0, 0, 0.1)',
             
         }} onClick={handleRestart}>skip</button>
