@@ -40,16 +40,19 @@ export default function CircularProgressBar() {
         
         <CircularProgressbar
           value={percentage}
-          text={`${timer}s`}
-          strokeWidth={2}
+          
+          text={`${timer}s` }
+          strokeWidth={4}
           styles={buildStyles({
             rotation: 0.87,
-            strokeLinecap: 'butt',
-            textSize: '16px',
+          
+            textSize: '10px',
+            textAlign:'center',
             pathTransitionDuration: 1,
             pathColor: `#663e76`,
             textColor: '#000000',
             trailColor: '#d6d6d6',
+        
             
             backgroundColor: '#3e98c7',
             textAnchor: 'middle', 
